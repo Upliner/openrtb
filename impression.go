@@ -32,6 +32,7 @@ type Impression struct {
 	Exp               int            `json:"exp,omitempty"`               // Advisory as to the number of seconds that may elapse between the auction and the actual impression.
 	IFrameBuster      []string       `json:"iframebuster,omitempty"`      // Array of names for supportediframe busters.
 	Ext               Extension      `json:"ext,omitempty"`
+	Cnt               int            `json:"ext,omitempty"`
 }
 
 func (imp *Impression) assetCount() int {

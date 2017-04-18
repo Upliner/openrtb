@@ -1,6 +1,6 @@
 # Go OpenRTB v2.x
 
-[![Build Status](https://travis-ci.org/bsm/openrtb.svg?branch=master)](https://travis-ci.org/bsm/openrtb)
+[![Build Status](https://travis-ci.org/Upliner/openrtb.svg?branch=master)](https://travis-ci.org/bsm/openrtb)
 
 OpenRTB implementation for Go
 
@@ -9,7 +9,7 @@ OpenRTB implementation for Go
 To install, use `go get`:
 
 ```shell
-go get github.com/bsm/openrtb
+go get github.com/Upliner/openrtb
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ package main
 
 import (
   "log"
-  "github.com/bsm/openrtb"
+  "github.com/Upliner/openrtb"
 )
 
 func main() {
