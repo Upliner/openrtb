@@ -16,7 +16,7 @@ var (
 // Cid can be used to block ads that were previously identified as inappropriate.
 // Substitution macros may allow a bidder to use a static notice URL for all of its bids.
 type Bid struct {
-	ID             string         `json:"id"`
+	ID             StringOrNumber `json:"id"`
 	ImpID          string         `json:"impid"`                    // Required string ID of the impression object to which this bid applies.
 	Price          float64        `json:"price"`                    // Bid price in CPM. Suggests using integer math for accounting to avoid rounding errors.
 	AdID           string         `json:"adid,omitempty"`           // References the ad to be served if the bid wins.
