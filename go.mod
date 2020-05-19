@@ -1,4 +1,4 @@
-module github.com/bsm/openrtb
+module github.com/Upliner/openrtb
 
 require (
 	github.com/onsi/ginkgo v1.7.0
