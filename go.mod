@@ -1,4 +1,4 @@
-module github.com/Upliner/openrtb
+module github.com/Upliner/openrtb/v2
 
 go 1.13
 
