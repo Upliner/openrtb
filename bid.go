@@ -53,8 +53,9 @@ type Bid struct {
 	SlotInPod        SlotPositionInPod `json:"slotinpod,omitempty"` // Indicates that the bid response is only eligible for a specific position.
 	CategoryTaxonomy CategoryTaxonomy  `json:"cattax,omitempty"`    // Defines the taxonomy in use.
 
-	Exp int             `json:"exp,omitempty"` // Advisory as to the number of seconds the bidder is willing to wait between the auction and the actual impression.
-	Ext json.RawMessage `json:"ext,omitempty"`
+	Exp  int             `json:"exp,omitempty"` // Advisory as to the number of seconds the bidder is willing to wait between the auction and the actual impression.
+	Ext  json.RawMessage `json:"ext,omitempty"`
+	Data json.RawMessage `json:"data,omitempty"`
 }
 
 // Validate required attributes
